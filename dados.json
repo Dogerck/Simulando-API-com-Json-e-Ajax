@@ -1,0 +1,35 @@
+{
+    "modulos": [{
+            "numCapitulo": 1,
+            "nomeCapitulo": "Gramática básica",
+            "descricaoCapitulo": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem",
+            "estrelaExercício": 4,
+            "progresso": 50,
+            "tipoAreaEstudo": "humanas"
+        },
+        {
+            "numCapitulo": 2,
+            "nomeCapitulo": "Fotossíntese de orquídeas",
+            "descricaoCapitulo": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem",
+            "estrelaExercício": 1,
+            "progresso": 30,
+            "tipoAreaEstudo": "biologicas"
+        },
+        {
+            "numCapitulo": 3,
+            "nomeCapitulo": "Aritimética avançada",
+            "descricaoCapitulo": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem",
+            "estrelaExercício": 2,
+            "progresso": 24,
+            "tipoAreaEstudo": "exatas"
+        },
+        {
+            "numCapitulo": 4,
+            "nomeCapitulo": "Sociedade moderna",
+            "descricaoCapitulo": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem",
+            "estrelaExercício": 3,
+            "progresso": 100,
+            "tipoAreaEstudo": "comum"
+        }
+    ]
+}

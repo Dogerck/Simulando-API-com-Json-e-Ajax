@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F3F3F3;
+    &-modulos {
+        width: 90vw;
+        height: 140px;
+        border-radius: 10px;
+        display: flex;
+        margin: 15px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -5px 4px 9px -8px;
+        p {
+            font-family: Lexend, sans-serif;
+            font-weight: 500;
+            margin: 0;
+            font-size: 0.8em;
+        }
+        .modulos-badge {
+            width: 15vw;
+            height: 140px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: #3FDC73;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            p {
+                font-family: Lexend, sans-serif;
+                font-weight: 700;
+                margin: 0;
+                font-size: 1.6em;
+            }
+            h2 {
+                font-family: Lexend, sans-serif;
+                font-weight: 700;
+                margin: 0;
+                font-size: 2em;
+            }
+        }
+        .modulos-conteudo {
+            width: 80vw;
+            height: 140px;
+            justify-content: center;
+            display: flex;
+            background-color: #fff;
+            flex-direction: column;
+            h1 {
+                font-family: Lexend, sans-serif;
+                font-weight: 500;
+                margin: 0;
+                text-align: left;
+                margin: 10px;
+            }
+            p {
+                font-family: Lexend, sans-serif;
+                font-weight: 400;
+                margin: 10px;
+                font-size: 1em;
+            }
+        }
+        .progresso {
+            width: 20vw;
+            height: 140px;
+            justify-content: center;
+            align-items: left;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            display: flex;
+            border-left: 2px solid #808080;
+            background-color: #fff;
+            flex-direction: column;
+            p {
+                margin: 5px;
+            }
+            &-barra {
+                width: 13vw;
+                height: 8px;
+                background-color: #AFB7B2;
+                margin: 5px;
+                &-interna {
+                    width: 0%;
+                    height: 8px;
+                    background-color: #4CFC98;
+                }
+            }
+            &-caixa-estrelas {
+                display: flex;
+            }
+            &-estrelas {
+                clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+                background-color: #FFE53A;
+                width: 20px;
+                height: 20px;
+                margin: 5px;
+                &--cinza {
+                    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+                    background-color: #AFB7B2;
+                    width: 20px;
+                    height: 20px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
